@@ -1,3 +1,4 @@
+;display the lag
 
 alias pingme scon -at1 .ctcpreply $!me LAG $ticks
 
