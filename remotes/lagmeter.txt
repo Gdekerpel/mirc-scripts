@@ -8,6 +8,7 @@ on *:CTCPREPLY:LAG*: {
   halt
 } 
 
+;adds a menu popup
 menu status,channel,query {
   $iif($server == $null,$style(2)) - Lag Meter:/pingme
 }
