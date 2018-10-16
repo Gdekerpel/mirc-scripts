@@ -4,15 +4,3 @@ F6 //ping $me
 ;google stuff
 
 /g /google $1-
-/google { 
-  if ( $1 == $null ) {
-    /run http://www.google.com
-  }
-  else  {
-    %google = $replace($1-,$chr(32),$chr(37) $+ 20) ;replace spaces
-    /echo -a http://www.google.com/search?q= $+ %google
-    ; /say http://www.google.com/search?q= $+ %google ;uncomment this if you want to say the current window what you're googling
-    /run http://www.google.com/search?q= $+ $1- ; open your default browser
-    unset %google ;remove the variable
-  }
-}
