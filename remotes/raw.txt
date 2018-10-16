@@ -1,0 +1,2 @@
+; stop "away" messages from getting into your private conversations
+raw 301:*:/halt
