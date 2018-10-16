@@ -1,0 +1,12 @@
+
+alias pingme scon -at1 .ctcpreply $!me LAG $ticks
+
+on *:CTCPREPLY:LAG*: {
+  if ( $nick != $me ) halt
+  echo -at * Lag: Lag for $server $+ : $calc(($ticks - $2) / 1000) $+ s
+  halt
+} 
+
+menu status,channel,query {
+  $iif($server == $null,$style(2)) - Lag Meter:/pingme
+}
