@@ -1,3 +1,3 @@
-# mIrc-scripts
+# mIRC-scripts
 
-stuff handy in mIrc.
+stuff handy in mIRC.
