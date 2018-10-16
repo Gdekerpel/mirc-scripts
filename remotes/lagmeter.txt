@@ -1,9 +1,7 @@
 ;display the lag
 
-
 ;create the alias
 alias pingme scon -at1 .ctcpreply $!me LAG $ticks
-
 
 ;capture the ctcp reply
 on *:CTCPREPLY:LAG*: {
