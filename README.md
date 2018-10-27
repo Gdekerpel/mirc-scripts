@@ -1,3 +1,10 @@
 # mIRC-scripts
 
-stuff handy in mIrc.
+Stuff handy in mIrc.
+
+## Why?
+
+# Easy
+To learn git :D
+
+`- out`
